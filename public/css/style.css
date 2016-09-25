@@ -1,0 +1,15 @@
+body{
+    background: #ececec;
+    padding: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.page-header{
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.well h2{
+    text-align: center;
+}
