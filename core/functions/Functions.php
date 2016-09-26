@@ -1,19 +1,17 @@
 <?php
 
-
 /*
-*   Die and Dump
-*/
-function dd($data){
-    echo '<pre>';
-        die(var_dump($data));
-    echo '</pre>';
+ *   Die and Dump
+ */
+
+function dd($data) {
+    die(var_dump($data));
 }
 
-function ClubEntry($age){
-    if($age < 18){
+function ClubEntry($age) {
+    if ($age < 18) {
         return 'Minor, go home!';
-    }else{
+    } else {
         return 'Entry Access granted!';
     }
 }
